@@ -1,0 +1,19 @@
+title: "Singhai Nishith"
+description: "My personal website"
+baseurl: ""  # Keep empty since it's a root GitHub Pages site
+url: "https://singhaidotnish.github.io"
+
+theme: minima  # Optional, only if using Jekyll themes
+
+# Exclude unnecessary files from the build
+exclude:
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+
+# Plugins (Only if needed)
+plugins:
+  - jekyll-seo-tag  # Adds SEO meta tags
+  - jekyll-paginate # Enables pagination (if needed)
